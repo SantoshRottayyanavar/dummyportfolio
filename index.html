@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SantoshRottayyanavar_portfolio</title>
+    <link rel="icon" href="images/facicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2fb5adb165.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+<div id="header">
+    <div class="container">
+    <nav>
+        <img src="images/logo.jpg" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <!--<li><a href="#">Resume</a></li>-->
+            <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p> Data Analyst</p>
+        <h1>Hi, I'm <span>Santosh</span><br> Rottayyanavar</h1>
+
+    </div>
+    </div>
+</div><!-- --------about-------- -->
+<div id="about">
+    <section class="parallax" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Santosh_photo.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="about-content">Results-oriented Data Analyst with 3 years of hands-on 
+                   experience in collecting, cleaning, and analyzing complex 
+                   datasets to drive business insights and strategic decision-making. 
+                   Proficient in SQL, Power BI, Python, Excel, and Tableau with a 
+                   proven track record of designing interactive dashboards, optimizing reporting processes, 
+                   and delivering actionable insights. Skilled in collaborating with cross-functional teams 
+                   to understand requirements, define KPIs, and translate data into clear, impactful visualizations. 
+                   Passionate about solving real-world problems with data and continuously enhancing data quality, performance, and usability.</p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Power BI / Tableau</span><br>Creating interactive dashboards and visual reports for decision-making.</li>
+                        <li><span>SQL</span><br>Retrieving, filtering, and joining data from relational databases.</li>
+                        <li><span>Python</span><br>Performing data cleaning, analysis, and automation using libraries like Pandas, NumPy, and Matplotlib.</li>
+                        <li><span>Excel (VLOOKUP, Pivot Tables)</span><br>Analyzing datasets, summarizing trends, and performing quick calculations.</li>
+                        <li><span>Statistical Analysis</span><br>Interpreting data trends, distributions, and relationships using descriptive statistics.</li>
+                        <li><span>Data Cleaning</span><br>Removing duplicates, handling missing values, and correcting data formats to ensure accuracy.</li>
+                        <li><span>Data Transformation</span><br>Converting raw data into a usable format for analysis (e.g., normalization, aggregation).</li>
+                        <li><span>Data Visualization</span><br>Presenting insights clearly using charts, graphs, and plots.</li>
+                        <li><span>ETL (Extract, Transform, Load)</span><br>Managing data pipelines for importing and processing large datasets.</li>
+                        <li><span>Business Intelligence (BI)</span><br>Supporting business decisions through data-driven insights.</li>
+                        <li><span>Ad Hoc Reporting</span><br>Creating reports on-demand to answer specific business questions.</li>
+                        <li><span>A/B Testing</span><br>Comparing two variations of a product or feature to evaluate performance.</li>
+                        <li><span>Data Mining</span><br>Discovering hidden patterns or relationships in large datasets.</li>
+                        <li><span>Data Storytelling</span><br>Communicating insights in a compelling narrative for stakeholders.</li>
+                        <li><span>Data Quality Checks</span><br>Ensuring data completeness, consistency, and reliability.</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Current</span><br>Data Analyst at NOWON Technologies, Bangalore</li>
+                        <li><span>2022 - 2023</span><br>Junior Data Analyst at UID Smart Services, Dubai.</li>
+                        <li><span>Oct 2023 - Nov 2023</span><br>Data Analyst Intern at Meriskill, Noida, UP.</li>
+                        <li><span>April 2023 - Oct 2023</span><br>Data Analyst Intern at AI Variant, Bangalore</li>  
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Data Analyst Training at ExcelR Solutions, Bangalore.</li>
+                        <li><span>2020</span><br>BCA from KLE College, Dharwad.</li>
+                        <li><span>2017</span><br>Commerce(PUC) from RLS College, Dharwad.</li>
+                    </ul>
+                   </div>
+            </div>
+        </div>
+    </div>
+    </section>
+</div>
+<!-- ------ Portfolio ------ -->
+ <div id="portfolio">
+    <section class="parallax" id="portfolio">
+    <div class="container"></div>
+     <h1 class="sub-title">My Work</h1>
+     <div class="work-list">
+     <div class="work">
+        <img src="images/bankloan.jpg">
+        <div class="layer">
+            <h3>Bank Loan Analysis</h3>
+            <p>Bank Loan Analysis involves examining customer data and loan attributes to identify approval patterns, risk factors, and default trends.
+             It helps banks make informed lending decisions and minimize financial risk.</p>
+            <a href="bankloananalysisi2.html" ><i class="fas fa-external-link-alt"></i></a>
+        </div>
+     </div>
+      <div class="work">
+        <img src="images/hrimage.jpg">
+         <div class="layer">
+           <h3>Human Resource Analysis</h3>
+            <p>Human Resource Analysis focuses on evaluating employee data to understand workforce trends, performance, and organizational needs.
+             It helps HR teams make data-driven decisions to improve talent management and employee retention.</p>
+            <a href="hrdataanalysis.html"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+     </div>
+      <div class="work">
+        <img src="images/Electronicsales.jpg">
+         <div class="layer">
+             <h3>Electronic Sales Analysis</h3>
+            <p>Electronic Sales Analysis involves examining sales data of electronic products to identify trends, customer preferences, and revenue patterns.
+            It helps businesses optimize inventory, improve marketing strategies, and boost overall sales performance.</p>
+             <a href="electronic_sales.html"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+     </div>
+     </div>
+     <a href="#" class="btn">See more</a>
+     </section>
+ </div>
+ 
+
+ <!-- ------contact------- -->
+  <div id="contact">
+    <section class="parallax" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>santoshrottayyanavar81@gmail.com</p>
+            <div class="social-icons">
+                <a href="https://github.com/SantoshRottayyanavar"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.linkedin.com/in/santosh-rottayyanavar-/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/Santosh R (Resume).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    </section>
+  </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+    {
+        tablink.classList.remove("active-link")
+    }
+        for(tabcontent of tabcontents)
+    {
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu()
+    {
+        sidemenu.style.right = "0";
+    }
+     function closemenu()
+    {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzERfvfDmuWnuBrY4VQPzIdgmDvIV2mJhyt1G0jHOLsg3a2KNeMq_BmHuFp1MQgWSnD/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+  
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = 'Message sent successfully'
+        setTimeout(function(){
+        msg.innerHTML = ""
+      },5000)
+      form.reset()
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    </body>
+</html>
